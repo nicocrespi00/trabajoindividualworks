@@ -1,0 +1,11 @@
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul li{
+    border: rgb(15, 15, 80) 3px solid;
+    padding: 0.7em;
+}
