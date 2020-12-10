@@ -1,0 +1,22 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.bloque{
+   height: 100%;
+   list-style: none;
+   display: flex;
+   justify-content: flex-end;
+   align-content: flex-end; 
+   flex-direction: column;
+
+}
+
+ul li{
+    width:10%;
+    height:10%;
+    background:red;
+    border: black 3px solid;
+}
+
