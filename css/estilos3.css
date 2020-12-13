@@ -1,0 +1,50 @@
+html{
+    background-color: rgb(240, 228, 197);
+}
+
+h1{
+    font-size: 2em;
+    font-family: Helvetica, sans-serif; 
+    text-align: center;
+}
+
+h3{
+    font-size: 1em;
+    font-family: Helvetica, sans-serif; 
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 10%;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+
+}
+
+ul li{
+    border: rgb(15, 15, 80) 3px solid;
+    padding: 0.7em;
+}
+
+
+.contenido{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: flex-end;
+    border: 1px solid black;
+}
+
+.item{
+    height: 150px;
+    width: 150px;
+    background-color: violet;
+    border: 1px solid black;
+}
