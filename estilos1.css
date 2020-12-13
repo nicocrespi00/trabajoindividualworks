@@ -3,20 +3,21 @@ html, body {
     width: 100%;
 }
 
-.bloque{
+#contenido {
    height: 100%;
-   list-style: none;
+   width: 100%;
    display: flex;
    justify-content: flex-end;
-   align-content: flex-end; 
    flex-direction: column;
-
+   align-content: center;
 }
 
-ul li{
+div.item{
     width:10%;
     height:10%;
     background:red;
     border: black 3px solid;
+    justify-content: center;
+    
 }
 
